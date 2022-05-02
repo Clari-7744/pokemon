@@ -1,0 +1,12 @@
+.pokemon {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.pokemon img {
+    display: block;
+    align-items: center;
+    justify-content: center
+}
+/*.clearPage*/

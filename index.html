@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <h1>Look at my pokemon!</h1>
+    <h2>
+        <input type="text" placeholder="Pokémon #" id="pokemonNum">
+        <input type="submit" value="Show Pokémon" id="showMon" onclick="onShow()">
+    </h2>
+    <h2>
+        <input type="submit" value="Show All Pokémon" id="showAll" onclick="showAll()" disabled="">
+        <input type="submit" value="Show Random Pokémon" id="showRandom" onclick="showRandom()">
+        <input type="submit" value="Clear Page" id="clearPage" onclick="clearPage(true)">
+    </h2>
+    <h2>
+        <input type="submit" value="Previous" id="previous" onclick="previous()">
+        <input type="submit" value="Next" id="next" onclick="next()">
+    </h2>
+    <section id="container"></section>
+    <script src="app.js"></script>
+</body>
+
+</html>
